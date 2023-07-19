@@ -52,4 +52,63 @@
     .btn-2{
         margin-left: 10px;
     }
+    /* gamer section  */
+    .gamer-cont{
+        flex-direction: column;
+    }
+    .gamer-img{
+        max-width: 576px;
+    }
+    .gamer-img img{
+        width: 90%;
+        margin-left: 30px;
+    }
+    .gamer-full{
+        background-color: white;
+    }
+    .gamer-content{
+        max-width: 576px;
+        text-align: center;
+    }
+    .gamer-content h1{
+        font-size: 35px;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .gamer-content p{
+        font-size: 16px;
+        text-align: center;
+        width: 70%;
+        margin: 20px auto;
+    }
+    .btn-3{
+        font-size: 15px;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+    /* cart section  */
+    .cart-cont{
+        max-width: 576px;
+        margin: 50px auto;
+    }
+    .cart-cont h1 ,p{
+        width: 80%;
+    }
+    .cart-content{
+        flex-direction: column;
+    }
+    .ad-cont{
+        max-width: 576px;
+        margin: 0px auto;
+        flex-direction: column;
+    }
+    .ad-content{
+        width: 80%;
+        margin: 10px;
+    }
+    .add-img{
+        width: 50%;
+        margin: 10px;
+        justify-content: center;
+    }
 }
