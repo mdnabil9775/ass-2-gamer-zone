@@ -7,6 +7,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+/* header section */
 .header-cont{
     min-height: 130px;
     max-width: 1400px;
@@ -58,4 +59,71 @@ body{
 .follow a{
     margin-left: 0px;
     font-size: 1.3rem;
+}
+/* buttons */
+.btn-1{
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background-color: #FF42A5;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 45px;
+}
+.btn-2{
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    background-color: #4EC5F7;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 45px;
+    margin-left: 20px;
+    
+}
+/* goat section  */
+
+.goat-full{
+    background-image: url(../images/Group-14.png), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.goat-cont{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.goat-content{
+    width: 50%;
+    height: 100%;
+    font-size: 10px;
+}
+.goat-content h4{
+    font-size: 5em;
+    font-weight: 600;
+    color: #0B0223;
+}
+.goat-content h1{
+    font-size: 9em;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #F948B2 10%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.goat-content p{
+    color: #534C64;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.goat-img{
+    width: 50%;
+    height: 100%;
+}
+.goat-img img{
+    width: 100%;
 }

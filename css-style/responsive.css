@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
     .header-cont{
         flex-direction: column;
         justify-content: center;
@@ -8,5 +8,48 @@
     .nav-cont{
         flex-direction: column;
         gap: 36px;
+        text-align: center;
+    }
+    /* goat section  */
+    .goat-full{
+        background-image: none;
+        margin-top: 30px;
+    }
+    .goat-cont{
+        flex-direction: column-reverse;
+    }
+    .goat-content{
+        width: 80%;
+        font-size: 5px;
+        justify-content: center;
+        background-image: url(../images/Group-14.png);
+        background-position: left;
+        background-size: 100%;
+    }
+    .goat-img{
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+    .goat-content p{
+        margin: 10px 0 10px 70px;
+    }
+    .goat-content h4{
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .goat-content button{
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .goat-content h1{
+        margin-left: 70px;
+    }
+    .btn-1{
+        margin-left: 70px;
+    }
+    .btn-2{
+        margin-left: 10px;
     }
 }
