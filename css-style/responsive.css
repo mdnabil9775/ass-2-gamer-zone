@@ -57,7 +57,8 @@
         flex-direction: column;
     }
     .gamer-img{
-        max-width: 576px;
+        /* max-width: 576px; */
+        max-width: 425px;
     }
     .gamer-img img{
         width: 90%;
@@ -67,7 +68,8 @@
         background-color: white;
     }
     .gamer-content{
-        max-width: 576px;
+        /* max-width: 576px; */
+        max-width: 425px;
         text-align: center;
     }
     .gamer-content h1{
@@ -88,7 +90,8 @@
     }
     /* cart section  */
     .cart-cont{
-        max-width: 576px;
+        /* max-width: 576px; */
+        max-width: 425px;
         padding: 10px auto;
         margin: 50px auto;
     }
@@ -120,7 +123,8 @@
         text-align: center;
     }
     .add-img{
-        max-width: 576px;
+        /* max-width: 576px; */
+        max-width: 425px;
         margin: 10px ;
         justify-content: center;
     }
